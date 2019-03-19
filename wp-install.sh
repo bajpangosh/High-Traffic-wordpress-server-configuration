@@ -16,7 +16,7 @@ echo "Sit back and relax :) ......"
 sleep 2;
 cd /etc/nginx/sites-available/
 
-sudo wget -O "$DOMAIN" https://raw.githubusercontent.com/bajpangosh/How-To-Install-WordPress-with-LEMP-on-Ubuntu-16.04/master/ubuntu-18.04/default
+sudo wget -O "$DOMAIN" https://raw.githubusercontent.com/bajpangosh/High-Traffic-wordpress-server-configuration/master/sites-available/example.com.conf
 sudo sed -i -e "s/example.com/$DOMAIN/" "$DOMAIN"
 sudo sed -i -e "s/www.example.com/www.$DOMAIN/" "$DOMAIN"
 sudo ln -s /etc/nginx/sites-available/"$DOMAIN" /etc/nginx/sites-enabled/
