@@ -21,8 +21,8 @@ sudo sed -i -e "s/example.com/$DOMAIN/" "$DOMAIN"
 sudo sed -i -e "s/www.example.com/www.$DOMAIN/" "$DOMAIN"
 sudo ln -s /etc/nginx/sites-available/"$DOMAIN" /etc/nginx/sites-enabled/
 sudo mkdir /etc/nginx/kloudboy
-sudo wget https://raw.githubusercontent.com/bajpangosh/How-To-Install-WordPress-with-LEMP-on-Ubuntu-16.04/master/ubuntu-18.04/general.conf
-sudo wget https://raw.githubusercontent.com/bajpangosh/How-To-Install-WordPress-with-LEMP-on-Ubuntu-16.04/master/ubuntu-18.04/php_fastcgi.conf
+sudo wget https://raw.githubusercontent.com/bajpangosh/High-Traffic-wordpress-server-configuration/master/kloudboy/general.conf
+sudo wget https://raw.githubusercontent.com/bajpangosh/High-Traffic-wordpress-server-configuration/master/kloudboy/php_fastcgi.conf
 echo "Setting up Cloudflare FULL SSL"
 sleep 2;
 sudo mkdir /etc/nginx/ssl
