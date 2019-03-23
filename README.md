@@ -5,6 +5,16 @@
 
 ## Installation & Usage
 
+## (1st Step) CloudFlare settings
+
+Add your droplet(vps) ip address to CloudFlare A record.
+
+![](cf.png)
+
+## (2nd Step) Login to ssh console
+
+run below script. it'll ask your domain name just add "example.com" format next your database name add "examplewp"
+
 ![](tr.png)
 
 ###### Use only on Ubuntu-18.04.
