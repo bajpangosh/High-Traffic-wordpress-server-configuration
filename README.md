@@ -27,6 +27,13 @@ wget -qO htw run.kloudboy.com/htw && sudo bash htw
 
 > Cloudflare Full SSL
 
+## Recommended CloudFlare Page Rules for WordPress Sites
+
+[Page Rules 1](https://community.cloudflare.com/t/recommended-cloudflare-page-rules-for-wordpress-sites/12502)
+
+## Caching Static HTML with WordPress/WooCommerce
+[Page Rules 2](https://support.cloudflare.com/hc/en-us/articles/236166048-Caching-Static-HTML-with-WordPress-WooCommerce)
+
 ## Author
 
 Bajpan Gosh – [@bajpangosh](https://twitter.com/bajpangosh) – bajpan@kloudboy.com
