@@ -16,7 +16,7 @@ echo "Sit back and relax :) ......"
 sleep 2;
 cd /etc/nginx/sites-available/
 
-sudo wget -O "$DOMAIN" https://raw.githubusercontent.com/bajpangosh/High-Traffic-wordpress-server-configuration/master/sites-available/example.com.conf
+sudo wget -qO "$DOMAIN" https://raw.githubusercontent.com/bajpangosh/High-Traffic-wordpress-server-configuration/master/sites-available/example.com.conf
 sudo sed -i -e "s/example.com/$DOMAIN/" "$DOMAIN"
 sudo sed -i -e "s/www.example.com/www.$DOMAIN/" "$DOMAIN"
 sudo ln -s /etc/nginx/sites-available/"$DOMAIN" /etc/nginx/sites-enabled/
@@ -31,14 +31,14 @@ sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/nginx/ssl/
 sudo openssl dhparam -out /etc/nginx/ssl/dhparam.pem 2048
 cd /etc/nginx/
 sudo mv nginx.conf nginx.conf.backup
-sudo wget -O nginx.conf https://raw.githubusercontent.com/bajpangosh/High-Traffic-wordpress-server-configuration/master/nginx.conf
+sudo wget -qO nginx.conf https://raw.githubusercontent.com/bajpangosh/High-Traffic-wordpress-server-configuration/master/nginx.conf
 sudo mkdir -p /var/www/"$DOMAIN"/public
 cd /var/www/"$DOMAIN/public"
 cd ~
 
 echo "Downloading Latest Wordpress...."
 sleep 2;
-sudo wget wordpress.org/latest.zip
+sudo wget -q wordpress.org/latest.zip
 sudo unzip latest.zip
 sudo mv wordpress/* /var/www/"$DOMAIN"/public/
 sudo rm -rf wordpress latest.zip
