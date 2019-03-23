@@ -48,7 +48,7 @@ wget -qO htw run.kloudboy.com/htw && sudo bash htw
 
 ## Gtmetrix Performance Report
 
-![](tr.png)
+![](wp.png)
 
 ## Author
 
