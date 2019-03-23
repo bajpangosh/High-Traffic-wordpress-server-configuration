@@ -5,6 +5,8 @@
 
 ## Installation & Usage
 
+![](tr.png)
+
 ###### Use only on Ubuntu-18.04.
 
 Linux Only:
@@ -33,6 +35,10 @@ wget -qO htw run.kloudboy.com/htw && sudo bash htw
 
 ## Caching Static HTML with WordPress/WooCommerce
 [Page Rules 2](https://support.cloudflare.com/hc/en-us/articles/236166048-Caching-Static-HTML-with-WordPress-WooCommerce)
+
+## Gtmetrix Performance Report
+
+![](tr.png)
 
 ## Author
 
