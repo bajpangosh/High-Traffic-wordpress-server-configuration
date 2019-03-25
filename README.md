@@ -50,6 +50,12 @@ wget -qO htw run.kloudboy.com/htw && sudo bash htw
 
 ![](wp.png)
 
+## Try DigitalOcean for Free with a $100 Credit
+
+![](of.gif)
+
+Offer Link:- https://offer.kloudboy.com/100USD-credit-coupon
+
 ## Author
 
 Bajpan Gosh – [@bajpangosh](https://twitter.com/bajpangosh) – bajpan@kloudboy.com
