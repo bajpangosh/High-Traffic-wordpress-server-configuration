@@ -93,9 +93,9 @@ echo "--------------------------------"
 echo "Website:    https://www.$DOMAIN"
 echo "Dashboard:  https://www.$DOMAIN/wp-admin"
 echo
-tput setaf 4; echo "Database:   $USERNAME"
-tput setaf 4; echo "Username:   $USERNAME"
-tput setaf 4; echo "Password:   $PASS"
+tput setaf 4; echo "Database Name:   $USERNAME"
+tput setaf 4; echo "Database Username:   $USERNAME"
+tput setaf 4; echo "Database Password:   $PASS"
 echo "--------------------------------"
 tput sgr0
 echo
