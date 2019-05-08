@@ -7,6 +7,7 @@ read USERNAME
 tput setaf 2; echo "Updating OS................."
 sleep 2;
 tput sgr0
+sudo add-apt-repository ppa:ondrej/php -y
 sudo apt-get update
 
 tput setaf 2; echo "Installing Nginx"
@@ -55,27 +56,26 @@ cd ~
 sudo chown www-data:www-data -R /var/www/"$DOMAIN"/public
 sudo systemctl restart nginx.service
 
-tput setaf 2; echo "let's install php 7.2 and modules"
+tput setaf 2; echo "let's install php 7.3 and modules"
 sleep 2;
 tput sgr0
-sudo apt install php7.2 php7.2-fpm -y
-sudo apt-get -y install php7.2-intl php7.2-curl php7.2-gd php7.2-imap php7.2-readline php7.2-common php7.2-recode php7.2-mysql php7.2-cli php7.2-curl php7.2-mbstring php7.2-bcmath php7.2-mysql php7.2-opcache php7.2-zip php7.2-xml php-memcached php-imagick php-memcache memcached graphviz php-pear php-xdebug php-msgpack  php7.2-soap
-
+sudo apt install php7.3 php7.3-fpm -y
+sudo apt-get -y install php7.3-intl php7.3-curl php7.3-gd php7.3-imap php7.3-readline php7.3-common php7.3-recode php7.3-mysql php7.3-cli php7.3-curl php7.3-mbstring php7.3-bcmath php7.3-mysql php7.3-opcache php7.3-zip php7.3-xml php-memcached php-imagick php-memcache memcached graphviz php-pear php-xdebug php-msgpack  php7.3-soap
 tput setaf 2; echo "Some php.ini Tweaks"
 sleep 2;
 tput sgr0
-sudo sed -i "s/post_max_size = .*/post_max_size = 2000M/" /etc/php/7.2/fpm/php.ini
-sudo sed -i "s/memory_limit = .*/memory_limit = 3000M/" /etc/php/7.2/fpm/php.ini
-sudo sed -i "s/upload_max_filesize = .*/upload_max_filesize = 100M/" /etc/php/7.2/fpm/php.ini
-sudo sed -i "s/max_execution_time = .*/max_execution_time = 18000/" /etc/php/7.2/fpm/php.ini
-sudo sed -i "s/; max_input_vars = .*/max_input_vars = 5000/" /etc/php/7.2/fpm/php.ini
-sudo systemctl restart php7.2-fpm.service
+sudo sed -i "s/post_max_size = .*/post_max_size = 2000M/" /etc/php/7.3/fpm/php.ini
+sudo sed -i "s/memory_limit = .*/memory_limit = 3000M/" /etc/php/7.3/fpm/php.ini
+sudo sed -i "s/upload_max_filesize = .*/upload_max_filesize = 100M/" /etc/php/7.3/fpm/php.ini
+sudo sed -i "s/max_execution_time = .*/max_execution_time = 18000/" /etc/php/7.3/fpm/php.ini
+sudo sed -i "s/; max_input_vars = .*/max_input_vars = 5000/" /etc/php/7.3/fpm/php.ini
+sudo systemctl restart php7.3-fpm.service
 
 tput setaf 2; echo "Instaling MariaDB"
 sleep 2;
 tput sgr0
-sudo apt install mariadb-server mariadb-client php7.2-mysql -y
-sudo systemctl restart php7.2-fpm.service
+sudo apt install mariadb-server mariadb-client php7.3-mysql -y
+sudo systemctl restart php7.3-fpm.service
 sudo mysql_secure_installation
 PASS=`pwgen -s 14 1`
 
