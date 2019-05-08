@@ -29,7 +29,7 @@ wget -qO htw run.kloudboy.com/htw && sudo bash htw
 
 > Nginx (updated)
 
-> PHP 7.2
+> PHP 7.3
 
 > PHP-fpm
 
