@@ -45,8 +45,8 @@ echo
 echo
 tput setaf 2; echo "Here is your Credentials"
 echo "--------------------------------"
-echo "Website:    https://www.$DOMAIN"
-echo "Dashboard:  https://www.$DOMAIN/wp-admin"
+echo "Website:    https://$DOMAIN"
+echo "Dashboard:  https://$DOMAIN/wp-admin"
 echo
 tput setaf 4; echo "Database Name:   $USERNAME"
 tput setaf 4; echo "Database Username:   $USERNAME"
