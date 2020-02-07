@@ -27,15 +27,17 @@ wget -qO htw run.kloudboy.com/htw && sudo bash htw
 
 ## Features
 
-> Nginx (updated)
+> Nginx (Lastest)
 
 > PHP 7.3
 
 > PHP-fpm
 
-> Mariadb (updated)
+> Mariadb (Lastest)
 
-> Wordpress (updated)
+> Wordpress (Lastest)
+
+> Memcached (Lastest)
 
 > Cloudflare Full SSL
 
@@ -45,6 +47,21 @@ wget -qO htw run.kloudboy.com/htw && sudo bash htw
 
 ## Caching Static HTML with WordPress/WooCommerce
 [Page Rules 2](https://support.cloudflare.com/hc/en-us/articles/236166048-Caching-Static-HTML-with-WordPress-WooCommerce)
+
+## Activate Memcached
+
+>Install W3 Total Cache and Activate
+
+In the main menu, go to Performance then click on General Settings
+###### Activate Memcached for the following options:
+
+Page Cache Method
+![](pg.png)
+
+Database cache method
+![](db.png)
+
+Save the settings
 
 ## Gtmetrix Performance Report
 
