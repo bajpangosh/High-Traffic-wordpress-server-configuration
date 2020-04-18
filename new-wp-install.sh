@@ -9,7 +9,7 @@ sleep 2;
 tput sgr0
 sudo apt-get update
 tput setaf 2; echo "Sit back and relax :) ......"
-sleep 2;
+sleep 1;
 tput sgr0
 cd /etc/nginx/sites-available/
 
