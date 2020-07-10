@@ -104,7 +104,7 @@ echo "--------------------------------"
 tput sgr0
 echo
 echo
-tput setaf 3;  echo "Installation & configuration succesfully finished."
+tput setaf 3;  echo "Installation & configuration successfully finished."
 echo
 echo "Twitter @bajpangosh"
 echo "E-mail: support@kloudboy.com"

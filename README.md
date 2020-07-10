@@ -1,5 +1,5 @@
 # High Traffic wordpress server configuration
-> This LEMP stack is that fastest way to start running WordPress on your server. Using Nginx, PHP 7.2, Mariadb.
+> This LEMP stack is that fastest way to start running WordPress on your server. Using Nginx, PHP 7.4, Mariadb.
 
 ![](wordpress.jpg)
 
@@ -13,11 +13,11 @@ Add your droplet(vps) ip address to CloudFlare A record.
 
 ## (2nd Step) Login to ssh console
 
-run below script. it'll ask your domain name just add "example.com" format next your database name add "examplewp"
+run below script. it'll ask your domain name just add "yoursite.com" format next your database name add "examplewp"
 
 ![](tr.png)
 
-###### Use only on Ubuntu-18.04.
+###### Ubuntu-18.04 and Ubuntu-20.04 Support.
 
 Linux Only:
 
@@ -29,13 +29,15 @@ wget -qO htw run.kloudboy.com/htw && sudo bash htw
 
 > Nginx (Lastest)
 
-> PHP 7.3
+> PHP 7.4
 
 > PHP-fpm
 
 > Mariadb (Lastest)
 
 > Wordpress (Lastest)
+
+> WP-CLI (Lastest)
 
 > Memcached (Lastest)
 
