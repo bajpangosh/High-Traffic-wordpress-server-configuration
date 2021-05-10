@@ -65,11 +65,11 @@ Database cache method
 
 Save the settings
 
-## Best Cache Plugin to Get Google / GTmatrix 100% Pagespeed.
+## KloudBoy Recommended Plugins to Get Google / GTmatrix 100% Pagespeed.
 
-Swift Performance is a cache and performance booster plugin. It can speed up your site, improve SEO scores and user experience.
-
-[Install Now](https://swiftperformance.io/?ref=355)
+1. reSmush.it
+The FREE Image Optimizer which will compress your pictures and improve your SEO & performances…
+[Install Now](https://wordpress.org/plugins/resmushit-image-optimizer/)
 
 ## Gtmetrix Performance Report
 
@@ -80,6 +80,11 @@ Swift Performance is a cache and performance booster plugin. It can speed up you
 ![](of.gif)
 
 Offer Link:- https://offer.kloudboy.com/100USD-credit-coupon
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
 
 ## Author
 
