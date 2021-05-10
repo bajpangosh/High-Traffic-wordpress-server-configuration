@@ -71,6 +71,10 @@ Save the settings
 The FREE Image Optimizer which will compress your pictures and improve your SEO & performances…
 [Install Now](https://wordpress.org/plugins/resmushit-image-optimizer/)
 
+2. WP Cloudflare Super Page Cache
+Speed up a WordPress website by caching your webpages onto global CDN using any Cloudflare
+[Install Now](https://wordpress.org/plugins/wp-cloudflare-page-cache/)
+
 ## Gtmetrix Performance Report
 
 ![](wp.png)
@@ -107,4 +111,4 @@ twitter  :- https://twitter.com/TeamKloudBoy
 
 ticket   :-https://kloudboy.freshdesk.com/support/home
 
-Made By <3 https://kloudboy.com/
+Made By <3 https://www.kloudboy.com/
