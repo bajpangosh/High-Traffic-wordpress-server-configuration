@@ -19,7 +19,7 @@ tput setaf 2; echo "Sit back and relax :) ......"
 sleep 2;
 tput sgr0
 cd /etc/nginx/sites-available/
-sudo wget -qO "$DOMAIN" https://raw.githubusercontent.com/bajpangosh/High-Traffic-wordpress-server-configuration/master/sites-available/example.com.conf
+sudo wget -qO "$DOMAIN" https://git.kloudboy.com/nginxconf
 sudo sed -i -e "s/example.com/$DOMAIN/" "$DOMAIN"
 sudo sed -i -e "s/www.example.com/www.$DOMAIN/" "$DOMAIN"
 sudo ln -s /etc/nginx/sites-available/"$DOMAIN" /etc/nginx/sites-enabled/

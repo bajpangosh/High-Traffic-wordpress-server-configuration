@@ -105,3 +105,6 @@ twitter  :- https://twitter.com/TeamKloudBoy
 ticket   :-https://kloudboy.freshdesk.com/support/home
 
 Made By <3 https://www.kloudboy.com/
+
+
+<a href="https://www.digitalocean.com/?refcode=9da6beb25893&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge"><img src="https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg" alt="DigitalOcean Referral Badge" /></a>
